@@ -12,3 +12,10 @@ const meta: Meta<typeof Main> = {
 export default meta;
 
 export const Default: StoryObj = {};
+
+export const Basic: StoryObj = {
+  args: {
+    title: 'Basic title',
+    description: 'Basic description',
+  },
+};
