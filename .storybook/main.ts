@@ -3,7 +3,7 @@ import type { StorybookConfig } from '@storybook/nextjs';
 const config: StorybookConfig = {
   staticDirs: ['../public'],
   stories: ['../src/components/**/stories.tsx'],
-  addons: ['@storybook/addon-essentials'],
+  addons: ['@storybook/addon-essentials', '@storybook/addon-styling'],
   framework: {
     name: '@storybook/nextjs',
     options: {},
