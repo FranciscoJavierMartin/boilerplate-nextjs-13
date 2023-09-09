@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "generate": "npx plop --plopfile generators/plopfile.js",
     "prepare": "husky install",
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
@@ -48,6 +49,7 @@
     "jest-environment-jsdom": "^29.6.4",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^14.0.1",
+    "plop": "^4.0.0",
     "prettier": "^3.0.3",
     "storybook": "^7.4.0",
     "ts-node": "^10.9.1"

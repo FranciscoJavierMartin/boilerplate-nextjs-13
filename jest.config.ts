@@ -28,6 +28,7 @@ const config: Config = {
     '!src/lib/registry.tsx',
     '!src/types/**',
     '!src/styles/**',
+    '!src/**/stories.tsx',
   ],
 
   // The directory where Jest should output its coverage files

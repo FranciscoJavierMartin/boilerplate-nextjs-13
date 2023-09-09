@@ -1,8 +1,8 @@
 import * as S from './styles';
 
 type MainProps = {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
 };
 
 export default function Main({
